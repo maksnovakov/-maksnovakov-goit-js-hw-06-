@@ -14,7 +14,7 @@ const images = [
 ];
 
 const makeImageMarkup = ({ url, alt }) => {
-  return `<li><img style="display:block; padding:15px;margin:0 auto" src="${url}" alt="{alt}" width="720"></li>`;
+  return `<li><img style="display:block; padding:15px;margin:0 auto" src="${url}" alt="${alt}" width="720"></li>`;
 };
 
 const galleryEl = document.querySelector("#gallery");
